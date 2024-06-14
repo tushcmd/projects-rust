@@ -14,5 +14,5 @@ pub fn run() {
     println!("{name} likes to play {activity}", name = "Gyan", activity = "football");
 
     // Placeholder Traits
-    println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
+    println!("Binary: {:b} Hex: {:x} Octo: {:o}", 10, 10, 10);
 } 
