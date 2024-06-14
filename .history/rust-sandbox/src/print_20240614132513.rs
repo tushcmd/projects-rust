@@ -15,11 +15,4 @@ pub fn run() {
 
     // Placeholder Traits
     println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
-
-    // Placeholder for debug traits - print array
-    println!("{:?}", (15, true, "Tush"));  //Called a turple
-
-
-    //Basic Math
-    println!("10 + 10 = {}", 10 + 10);
-}
+} 
