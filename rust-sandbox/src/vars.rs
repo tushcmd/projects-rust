@@ -13,4 +13,13 @@ pub fn run() {
 
     println!("My name is {} and I am {}", name, age);
 
+    //Define constants
+    //You have to use uppercase and add a type while using const eg below bit32
+    const ID: i32 = 001;
+    println!("ID: {}", ID);
+
+    //Assign multiple variables
+    let ( my_name, my_age ) = ( "Tush", 22 );
+    println!("{} is {}", my_name, my_age);
+
 }
