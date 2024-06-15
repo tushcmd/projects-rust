@@ -2,6 +2,7 @@
 // Variables hold primitive data or reference to data
 // Variables are immutable by default - by default you cant reassign them
 // Rust is a block-scoped language
+// Convention for variable naming is underscore
 
 pub fn run() {
     let name = "Tush";
