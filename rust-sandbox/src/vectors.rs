@@ -37,4 +37,11 @@ pub fn run() {
     for x in numbers.iter() {
         println!("Number: {}", x);
     }
+
+    // Loop & mutate values - kinda similar to how map works in js
+    for x in numbers.iter_mut() {
+        *x *= 2;
+    }
+
+    println!("Numbers Vec: {:?}", numbers);
 }
