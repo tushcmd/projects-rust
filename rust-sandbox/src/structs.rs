@@ -1,4 +1,5 @@
 // Structs - Used to create custom data types
+// Similar to classes in js .....
 
 // Traditional Struct
 //struct Color {
